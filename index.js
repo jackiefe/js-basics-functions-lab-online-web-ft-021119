@@ -8,6 +8,6 @@ function distanceFromHqInFeet(startingPoint) {
   return distanceFromHqInBlocks(startingPoint) * 264;
 }
 
-function distanceTravelledInFeet(startingPoint) {
-  return
+function distanceTravelledInFeet(startingPoint,endingPoint) {
+  return Math.abs(startingPoint - endingPoint) * 264 ;
 }
