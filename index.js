@@ -12,7 +12,7 @@ function distanceTravelledInFeet(startingPoint,endingPoint) {
   return Math.abs(startingPoint - endingPoint) * 264 ;
 }
 
-function calculatesFarePrice(start, destination) {
+function calculatesFarePrice(startingPoint, endingPoint) {
   let distance = distanceTravelledInFeet(startingPoint,endingPoint);
   let result;
 
