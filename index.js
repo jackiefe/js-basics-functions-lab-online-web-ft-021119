@@ -4,4 +4,4 @@ function distanceFromHqInBlocks(startingPoint) {
   return Math.abs(startingPoint - hq)
 }
 
-function 
+function distanceFromHqInFeet()
